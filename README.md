@@ -2,7 +2,7 @@
 Projek ini berisi script untuk melakukan otomasi pengujian pada website http://automationpractice.com
 
 Tools :
-- Python3
+- Python3 (Versi python yang digunakan Python 3.7.1)
 - pip3
 - Selenium binding python
 - Chromedriver

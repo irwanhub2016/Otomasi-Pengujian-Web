@@ -6,7 +6,6 @@ Tools :
 - pip3
 - Selenium binding python
 - Chromedriver
-- HtmlTestRunner
 
 How to :
 - git clone https://github.com/irwanhub2016/Otomasi-Pengujian-Web.git
@@ -21,4 +20,3 @@ How to :
   - source env/bin/activate
 - Jalankan test :
   - python3 [test_case_name.py] ( dalam repo ini terdapat 5 test case untuk automation test )
-- Secara otomatis Report test akan ter-generate setelah jalankan test -> Cek folder reports

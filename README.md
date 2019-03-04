@@ -20,3 +20,14 @@ How to :
   - source env/bin/activate
 - Jalankan test :
   - python3 [test_case_name.py] ( dalam repo ini terdapat 5 test case untuk automation test )
+
+Proses eksekusi test berjalan dalam mode headless atau tanpa GUI.
+```python
+
+    options = webdriver.ChromeOptions()
+		options.add_argument("--incognito")
+		options.add_argument("--headless")
+		options.add_argument("--no-sandbox")
+		options.headless = True
+    self.driver = webdriver.Chrome(chrome_options=options)
+```

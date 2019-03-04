@@ -12,6 +12,10 @@ How to :
 git clone https://github.com/irwanhub2016/Otomasi-Pengujian-Web.git
 ```
 - Masuk ke folder Otomasi-Pengujian-Web
+- Aktivasi environment venv :
+```bash
+source env/bin/activate
+```
 - Install paket yang diperlukan dengan pip3 dengan cara :
 ```bash
  pip3 install -r requirements.txt
@@ -25,10 +29,6 @@ git clone https://github.com/irwanhub2016/Otomasi-Pengujian-Web.git
 python3 chromedriver_installer/setup.py install --chromedriver-version=2.10
 ```
 - Buat file .env dan isi variable 'URL' didalam .env dengan link url website (Abaikan step ini jika sudah ada file .env, dalam Repo ini sudah tersedia file .env)
-- Aktivasi environment venv :
-```bash
-source env/bin/activate
-```
 - Jalankan test :
 ```bash
 python3 [test_case_name.py] ( dalam repo ini terdapat 5 test case untuk automation test )

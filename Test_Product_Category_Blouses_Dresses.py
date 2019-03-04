@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest, time, re, datetime
 import os
 import random
-import HtmlTestRunner
+# import HtmlTestRunner
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -127,6 +127,6 @@ class TestProductCategoryBlouses(unittest.TestCase):
 
 
 if __name__ == "__main__":
-	# unittest.main()
-	unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'), failfast=False, buffer=False,
-	              catchbreak=False)
+	unittest.main()
+	# unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'), failfast=False, buffer=False,
+	#               catchbreak=False)

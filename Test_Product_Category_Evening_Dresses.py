@@ -127,6 +127,6 @@ class TestProductCategoryEvening(unittest.TestCase):
 
 
 if __name__ == "__main__":
-	# unittest.main()
-	unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'), failfast=False, buffer=False,
-	              catchbreak=False)
+	unittest.main()
+	# unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'), failfast=False, buffer=False,
+	#               catchbreak=False)

@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest, time, re, datetime
 import os
 import random
-import HtmlTestRunner
+# import HtmlTestRunner
 from dotenv import load_dotenv
 load_dotenv()
 from pathlib import Path  # python3 only
@@ -123,6 +123,6 @@ class TestProductCategoryTshirt(unittest.TestCase):
 		self.assertEqual([], self.verificationErrors)
 	
 if __name__ == "__main__":
-	# unittest.main()
-	unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'), failfast=False, buffer=False,
-	              catchbreak=False)
+	unittest.main()
+	# unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./'), failfast=False, buffer=False,
+	#               catchbreak=False)
